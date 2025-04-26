@@ -16,9 +16,9 @@ from fastapi.staticfiles import StaticFiles
 # Load environment variables
 load_dotenv()
 
-SUPABASE_URL = "https://ermyzgicrdtazyjaejoa.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVybXl6Z2ljcmR0YXp5amFlam9hIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjI0MDExNywiZXhwIjoyMDUxODE2MTE3fQ.D3AsO_K49JW8PdunE2kMsnc6FuXrIEmoNXhudKGQ6ms"
-SUPABASE_JWT_SECRET = "RGcO+lSknV1u4mZ2Wqq1bsQSb3BvBCbQUE2Tgj1CtAMVLVzA86iD6HB7E2eMo9rcGUbclqtHSfp6s4smQJslew=="
+SUPABASE_URL = "env here"
+SUPABASE_KEY = "env here"
+SUPABASE_JWT_SECRET = "env here"
 
 # Initialize Supabase client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
